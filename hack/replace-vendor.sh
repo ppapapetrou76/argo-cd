@@ -4,6 +4,11 @@
 
 set -e
 
+go work init ./gitops-engine
+go work use .
+go work vendor
+go mod tidy
+
 echo "Searching for files containing 'go work vendor'..."
 
 # Replace in each file
