@@ -5802,6 +5802,9 @@
         "resourceViewEnabled": {
           "type": "boolean"
         },
+        "ssoAutoLogin": {
+          "type": "boolean"
+        },
         "statusBadgeEnabled": {
           "type": "boolean"
         },
